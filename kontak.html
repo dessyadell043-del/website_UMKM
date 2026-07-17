@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontak — Karya Nusantara</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">🧺 Karya<span>Nusantara</span></a>
+    <nav class="nav-links">
+      <a href="index.html">Beranda</a>
+      <a href="produk.html">Produk</a>
+      <a href="tentang.html">Tentang Kami</a>
+      <a href="kontak.html" class="active">Kontak</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Buka menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<div class="woven-divider"></div>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <h2>Hubungi Kami</h2>
+      <p>Ada pertanyaan soal produk atau ingin pesan khusus? Kirim pesan, kami balas secepatnya.</p>
+    </div>
+
+    <div class="contact-wrap">
+      <form id="contactForm" novalidate>
+        <div class="form-group">
+          <label for="nama">Nama Lengkap</label>
+          <input type="text" id="nama" name="nama" placeholder="Nama kamu">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="nama@email.com">
+        </div>
+        <div class="form-group">
+          <label for="pesan">Pesan</label>
+          <textarea id="pesan" name="pesan" placeholder="Tulis pertanyaan atau pesanan kamu di sini..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+        <p id="formMsg"></p>
+      </form>
+
+      <div>
+        <div class="info-card">
+          <h3>📍 Alamat Toko</h3>
+          <p>Jl. Kerajinan Nusantara No. 12, Yogyakarta, Indonesia</p>
+        </div>
+        <div class="info-card">
+          <h3>💬 WhatsApp</h3>
+          <p>0812-3456-7890 (respon cepat pukul 08.00–20.00 WIB)</p>
+        </div>
+        <div class="info-card">
+          <h3>📧 Email</h3>
+          <p>halo@karyanusantara.id</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <h4>Karya Nusantara</h4>
+      <p>Toko kerajinan tangan yang mendukung pengrajin lokal Indonesia lewat produk anyaman, tenun, batik, dan keramik.</p>
+    </div>
+    <div>
+      <h4>Navigasi</h4>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="produk.html">Produk</a></li>
+        <li><a href="tentang.html">Tentang Kami</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Hubungi Kami</h4>
+      <ul>
+        <li>WhatsApp: 0812-3456-7890</li>
+        <li>Email: halo@karyanusantara.id</li>
+        <li>Yogyakarta, Indonesia</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">&copy; 2026 Karya Nusantara. Dibuat dengan bangga untuk UMKM Indonesia.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

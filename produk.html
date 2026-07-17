@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Produk — Karya Nusantara</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">🧺 Karya<span>Nusantara</span></a>
+    <nav class="nav-links">
+      <a href="index.html">Beranda</a>
+      <a href="produk.html" class="active">Produk</a>
+      <a href="tentang.html">Tentang Kami</a>
+      <a href="kontak.html">Kontak</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Buka menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<div class="woven-divider"></div>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <h2>Semua Produk Kami</h2>
+      <p>Pilih kategori untuk menemukan karya yang kamu cari.</p>
+    </div>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="semua">Semua</button>
+      <button class="filter-btn" data-filter="anyaman">Anyaman</button>
+      <button class="filter-btn" data-filter="tenun">Tenun</button>
+      <button class="filter-btn" data-filter="batik">Batik</button>
+      <button class="filter-btn" data-filter="keramik">Keramik</button>
+    </div>
+
+    <div class="grid">
+      <div class="card" data-category="anyaman">
+        <div class="card-img"><img src="https://images.pexels.com/photos/37496745/pexels-photo-37496745.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop" alt="Tas anyaman rotan"></div>
+        <div class="card-body">
+          <span class="card-tag">Anyaman</span>
+          <h3>Tas Anyaman Rotan Bali</h3>
+          <p>Tas tangan dari rotan pilihan, cocok untuk harian.</p>
+          <div class="price">Rp185.000</div>
+        </div>
+      </div>
+      <div class="card" data-category="anyaman">
+        <div class="card-img"><img src="https://images.pexels.com/photos/265009/pexels-photo-265009.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop" alt="Keranjang bambu"></div>
+        <div class="card-body">
+          <span class="card-tag">Anyaman</span>
+          <h3>Keranjang Bambu Serbaguna</h3>
+          <p>Cocok untuk penyimpanan atau dekorasi rumah.</p>
+          <div class="price">Rp75.000</div>
+        </div>
+      </div>
+      <div class="card" data-category="batik">
+        <div class="card-img"><img src="https://images.pexels.com/photos/34465333/pexels-photo-34465333.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop" alt="Dompet batik"></div>
+        <div class="card-body">
+          <span class="card-tag">Batik</span>
+          <h3>Dompet Batik Tulis Klasik</h3>
+          <p>Motif batik tulis asli dari pengrajin Pekalongan.</p>
+          <div class="price">Rp95.000</div>
+        </div>
+      </div>
+      <div class="card" data-category="batik">
+        <div class="card-img"><img src="https://images.pexels.com/photos/35243199/pexels-photo-35243199.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop" alt="Selendang batik"></div>
+        <div class="card-body">
+          <span class="card-tag">Batik</span>
+          <h3>Selendang Batik Cap Klasik</h3>
+          <p>Kain katun lembut dengan motif batik cap tradisional.</p>
+          <div class="price">Rp120.000</div>
+        </div>
+      </div>
+      <div class="card" data-category="keramik">
+        <div class="card-img"><img src="https://images.pexels.com/photos/33126633/pexels-photo-33126633.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop" alt="Vas keramik"></div>
+        <div class="card-body">
+          <span class="card-tag">Keramik</span>
+          <h3>Vas Keramik Motif Alam</h3>
+          <p>Dibentuk manual di roda putar, dibakar tradisional.</p>
+          <div class="price">Rp150.000</div>
+        </div>
+      </div>
+      <div class="card" data-category="keramik">
+        <div class="card-img"><img src="https://images.pexels.com/photos/31687846/pexels-photo-31687846.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop" alt="Mug keramik"></div>
+        <div class="card-body">
+          <span class="card-tag">Keramik</span>
+          <h3>Mug Keramik Glasir Bumi</h3>
+          <p>Setiap mug punya corak glasir yang unik dan berbeda.</p>
+          <div class="price">Rp65.000</div>
+        </div>
+      </div>
+      <div class="card" data-category="tenun">
+        <div class="card-img"><img src="https://images.pexels.com/photos/4219651/pexels-photo-4219651.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop" alt="Syal tenun"></div>
+        <div class="card-body">
+          <span class="card-tag">Tenun</span>
+          <h3>Syal Tenun Ikat NTT</h3>
+          <p>Ditenun dengan alat tenun bukan mesin (ATBM).</p>
+          <div class="price">Rp220.000</div>
+        </div>
+      </div>
+      <div class="card" data-category="tenun">
+        <div class="card-img"><img src="https://images.pexels.com/photos/4219107/pexels-photo-4219107.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop" alt="Taplak tenun"></div>
+        <div class="card-body">
+          <span class="card-tag">Tenun</span>
+          <h3>Taplak Meja Tenun Lurik</h3>
+          <p>Motif lurik khas Jawa, cocok untuk meja makan.</p>
+          <div class="price">Rp135.000</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <h4>Karya Nusantara</h4>
+      <p>Toko kerajinan tangan yang mendukung pengrajin lokal Indonesia lewat produk anyaman, tenun, batik, dan keramik.</p>
+    </div>
+    <div>
+      <h4>Navigasi</h4>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="produk.html">Produk</a></li>
+        <li><a href="tentang.html">Tentang Kami</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Hubungi Kami</h4>
+      <ul>
+        <li>WhatsApp: 0812-3456-7890</li>
+        <li>Email: halo@karyanusantara.id</li>
+        <li>Yogyakarta, Indonesia</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">&copy; 2026 Karya Nusantara. Dibuat dengan bangga untuk UMKM Indonesia.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
